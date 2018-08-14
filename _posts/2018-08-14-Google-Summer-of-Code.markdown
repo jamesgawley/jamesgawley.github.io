@@ -12,11 +12,11 @@ author: James Gawley
 summary: "Results of 2018 Google Summer of Code Fellowship through the Classical Language Toolkit"
  
 ---
-Overview: 
+# Overview: 
 
 The Classical Language Toolkit (CLTK) is a suite of Natural Language Processing (NLP) tools used by humanists to study ancient texts. The original focus of the project was Latin and Greek, and the most sophisticated tools are available only for these languages. However, one of the main goals of the project is to support scholarship into cultures outside of the Western canon, particularly where NLP tools are not available.
 
-What I Set Out to Do:
+# What I Set Out to Do:
 
 Most NLP techniques rely on a large corpus of training data. For example 'lemmatization,' wherein all the inflected forms of a word are analysed as a single item, is often done by training a lemmatizer on a large group of texts whose words have already been grouped by lemma. Machine learning techniques are applied to build a model, and the model is then used to lemmatize texts which have not been analyzed by hand.
 
