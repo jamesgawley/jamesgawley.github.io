@@ -45,11 +45,15 @@ Lemmatization is a first step, and it is useful because the success of an unsupe
 
 # Where the code lives:
 
+## Already Pulled into CLTK:
 * [A dictionary of lemmas for Latin word-forms](https://github.com/cltk/latin_models_cltk/blob/master/semantics/lemmata.py)
 * [A dictionary of Greek translations for Latin lemmas](https://github.com/cltk/latin_models_cltk/blob/master/semantics/translations.py)
 * [A dictionary of Latin synonyms for Latin lemmas](https://github.com/cltk/latin_models_cltk/blob/master/semantics/synonyms.py)
 * [Dictionaries of lemmata, synonyms, and Latin translations for Greek words](https://github.com/cltk/greek_models_cltk/tree/master/semantics)
 * [A tool for looking up all possible lemmas of a Greek or Latin word](https://github.com/cltk/cltk/blob/master/cltk/semantics/latin/lookup.py)
+
+## Not Yet Pulled into CLTK:
+
 * [The unsupervised model and unsupervised lemmatization tool](https://github.com/jamesgawley/cltk/tree/master/cltk/lemmatize/latin/unsupervised.py)
 * [Experiments with various unsupervised language models](https://github.com/jamesgawley/latin_lemma_disambiguation_models)
 * [The new corpus of plaintext, aligned Latin and Greek](https://github.com/jamesgawley/greek_text_greek_fragmentary_historians)
