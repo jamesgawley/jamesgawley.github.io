@@ -1,7 +1,7 @@
 ---
 title: "Google Summer of Code Initial Post"
 layout: post
-date: 2018-08-14 11:59
+date: 2018-04-30 11:59
 tag: Corpus Linguistics
 tag: Google
 teaching: false
