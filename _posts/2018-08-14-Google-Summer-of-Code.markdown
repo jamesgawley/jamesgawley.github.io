@@ -59,7 +59,7 @@ Lemmatization is a first step, and it is useful because the success of an unsupe
 
 * [How to use the lemma lookup tool](http://docs.cltk.org/en/latest/latin.html#semantics)
 * [The logic behind the unsupervised lemmatization model](https://jamesgawley.github.io/Unsupervised-Lemmatization-Model)
-* [Initial GSoC blog post](https://jamesgawley.github.io/Google-Summer-of-Code-Initial-Post)
+* [Initial GSoC blog post](https://jamesgawley.github.io/Initial-GSoC-Blog-Post-for-CLTK)
 
 # Learning Experience:
 
