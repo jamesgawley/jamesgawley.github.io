@@ -6,8 +6,10 @@ tag: Corpus Linguistics
 tag: Google
 teaching: false
 research: true
+blog: true
 draft: false
 author: James Gawley
 summary: "Results of 2018 Google Summer of Code Fellowship through the Classical Language Toolkit"
  
 ---
+I killed it.
