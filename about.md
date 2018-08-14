@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+[//]: # (![Profile Image]({{ site.url }}/{{ site.picture }}))
 
 I am a PhD candidate in the Classics Department at UB, and a former Adjunct Instructor of Humanities at Miami-Dade College. I study idea transmission in the ancient world, specifically the allusions found in epic poetry. My approach combines philology with computational linguistics and cognitive science. 
 
