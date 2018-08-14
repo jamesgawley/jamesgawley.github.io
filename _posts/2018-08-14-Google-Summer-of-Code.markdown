@@ -20,28 +20,28 @@ What I Set Out to Do:
 
 Most NLP techniques rely on a large corpus of training data. For example 'lemmatization,' wherein all the inflected forms of a word are analysed as a single item, is often done by training a lemmatizer on a large group of texts whose words have already been grouped by lemma. Machine learning techniques are applied to build a model, and the model is then used to lemmatize texts which have not been analyzed by hand.
 
-However, under-studied languages lack adequate training data to support this standard approach; there just aren't enough texts which have been hand-curated to train a model. Therefore I set out to build unsupervised models which can learn the correct lemmatization without 'knowing the answers.' The goal is to provide accuracy comparable to the supervised approach, without the need for hand-curated training data.
+However, under-studied languages lack adequate training data to support this standard approach; there just aren't enough texts which have been hand-curated to train a model. Therefore I set out to build an unsupervised model which can learn, for example, the correct lemmatization without 'knowing the answers.' The goal is to provide accuracy comparable to supervised approaches, without the need for hand-curated training data.
 
-Lemmatization is the first step of this process, and it is useful because the success of an unsupervised algorithm can be easily tested. However my unsupervised model can be extended to create tools for, e.g., cross-language document alignment, where testing is more difficult.
+Lemmatization is a first step, and it is useful because the success of an unsupervised algorithm can be easily tested. However my unsupervised model can be extended to create tools for, e.g., cross-language document alignment, where testing is more difficult.
 
 Steps Completed:
 
-* Add lemmatizers for Greek and For Latin that provide all possible word groupings
-* Build an unsupervised language model extensible to other NLP tasks such as translation or document alignment
-* Use the language model to build an unsupervised Latin lemmatizer with > 90% accuracy
-* Build tools to suggest synonyms for Latin and Greek words, using unsupervised model
-* Build tools to suggest Latin translations for Greek words, and vice versa
+* Added lemmatizers for Greek and For Latin that provide all possible word groupings
+* Built an unsupervised language model extensible to other NLP tasks such as translation or document alignment
+* Used the language model to build an unsupervised Latin lemmatizer with > 90% accuracy
+* Added tools to suggest synonyms for Latin and Greek words
+* Added tools to suggest Latin translations for Greek words, and vice versa
 
 Additional Service Completed:
 
-* Coordinate the incorporation of CLTK into the core logic of the next generation of the open-source [Tesserae Project](http://tesserae.caset.buffalo.edu)
+* Coordinated the incorporation of CLTK into the core logic of the next generation of the open-source [Tesserae Project](http://tesserae.caset.buffalo.edu)
 * Expanded the CLTK corpus of texts with aligned translation of Latin and Greek (useful for testing translation tools)
 
 Steps Remaining:
 
 * Build an unsupervised language model for Greek
 * Use Greek model to build unsupervised lemmatizer for Greek
-* Use Greek and Latin language models to assign probabilities to synonyms and translations
+* Use Greek and Latin language models to assign probabilities to potential synonyms and translations
 
 Where the code lives:
 
