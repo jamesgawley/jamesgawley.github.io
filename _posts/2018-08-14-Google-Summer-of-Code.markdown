@@ -24,7 +24,7 @@ However, under-studied languages lack adequate training data to support this sta
 
 Lemmatization is a first step, and it is useful because the success of an unsupervised algorithm can be easily tested. However my unsupervised model can be extended to create tools for, e.g., cross-language document alignment, where testing is more difficult.
 
-Steps Completed:
+# Steps Completed:
 
 * Added lemmatizers for Greek and For Latin that provide all possible word groupings
 * Built an unsupervised language model extensible to other NLP tasks such as translation or document alignment
@@ -32,18 +32,18 @@ Steps Completed:
 * Added tools to suggest synonyms for Latin and Greek words
 * Added tools to suggest Latin translations for Greek words, and vice versa
 
-Additional Service Completed:
+# Additional Service Completed:
 
 * Coordinated the incorporation of CLTK into the core logic of the next generation of the open-source [Tesserae Project](http://tesserae.caset.buffalo.edu)
 * Expanded the CLTK corpus of texts with aligned translation of Latin and Greek (useful for testing translation tools)
 
-Steps Remaining:
+# Steps Remaining:
 
 * Build an unsupervised language model for Greek
 * Use Greek model to build unsupervised lemmatizer for Greek
 * Use Greek and Latin language models to assign probabilities to potential synonyms and translations
 
-Where the code lives:
+# Where the code lives:
 
 * [A dictionary of lemmas for Latin word-forms](https://github.com/cltk/latin_models_cltk/blob/master/semantics/lemmata.py)
 * [A dictionary of Greek translations for Latin lemmas](https://github.com/cltk/latin_models_cltk/blob/master/semantics/translations.py)
@@ -55,7 +55,13 @@ Where the code lives:
 * [The new corpus of plaintext, aligned Latin and Greek](https://github.com/jamesgawley/greek_text_greek_fragmentary_historians)
 * [A corpus of 10 million words of Latin poetry and prose, used to train the unsupervised model](https://github.com/jamesgawley/latin_text_tesserae_collection)
 
-Learning Experience:
+# Documentation:
+
+* [How to use the lemma lookup tool](http://docs.cltk.org/en/latest/latin.html#semantics)
+* [The logic behind the unsupervised lemmatization model](https://jamesgawley.github.io/Unsupervised-Lemmatization-Model)
+* [Initial GSoC blog post](https://jamesgawley.github.io/Google-Summer-of-Code-Initial-Post)
+
+# Learning Experience:
 
 * Improved Python coding skill
 * Developed better habits for open-source contributions
