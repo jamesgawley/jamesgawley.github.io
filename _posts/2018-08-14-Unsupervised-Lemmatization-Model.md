@@ -6,6 +6,7 @@ tag: Corpus Linguistics
 tag: Google
 teaching: false
 blog: true
+research: true
 draft: false
 author: James Gawley
 summary: "A Model for Disambiguating between Possible Lemmata Using Unsupervised Lemma Frequency Counts"
