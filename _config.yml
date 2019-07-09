@@ -59,6 +59,7 @@ width: large
 projects: true
 research: true
 teaching: true
+cv: true
 # if you don't need about or blog, comment them out below
 about: true
 blog: true
